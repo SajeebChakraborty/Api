@@ -35,7 +35,7 @@ mongoose.connect(config.url, {
 
 // default route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to alberts Product app"});
+    res.json({"message": "Welcome to sajeeb Product app"});
 });
 
 
